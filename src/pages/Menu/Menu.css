@@ -1,0 +1,332 @@
+
+.big-big{
+  display: flex;
+  width: 100%;
+  background-size: cover;
+}
+.big-big-big{
+  background-image: url(../../img/menu-bg.png);
+  background-size: cover;
+}
+/* .gif-1 img{
+  width: 500px;
+} */
+ .menu{
+  color: white;
+ }
+ .gif-big{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  flex-wrap: wrap;
+ }
+ .gif-big img{
+  width: 30%;
+ }
+ @media only screen and (max-width:664px) {
+  .gif-big img{
+    width: 100%;
+  }
+}
+.container{
+  display: flex;
+  justify-content: space-around;
+  max-width: 600px;
+  flex-wrap: wrap;
+  /* position: relative; */
+}
+.beans2{
+  top: 70px;
+}
+.beans3{
+  top: 30px;
+}
+.row {
+  position: relative;
+  margin: 0 auto;
+}
+.pp{
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+th{
+  color: #C5EFB1;
+  
+}
+.tr2{
+  height: 20px;
+}
+.th2{
+  float: left;
+}
+td{
+  color: white;
+}
+/* .beans {
+  margin: 20px auto;
+  animation: drop2 3s ease-in infinite;
+  animation: drop 3s ease-in infinite;
+  opacity: 1;
+}
+.beans4{
+  animation: drop 4s ease-in infinite;
+
+} */
+/* .beans2{
+  animation: drop 6s ease-in infinite;
+
+}
+@keyframes drop {
+  0% {
+    transform: translate(0px, -70px) rotate(45deg);
+    max-width: 5%;
+    max-height: 5%;
+      
+    
+  }
+  
+  100% {
+    transform: translate(0px, 1500px) rotate(360deg);
+    max-width: 20%;
+    max-height: 13%;
+
+  }
+} */
+/* 
+@keyframes drop2 {
+  0% {
+    transform: translate(0px, -70px);
+    
+  }
+  
+  80% {
+    transform: translate(0px, 1500px) ;
+    
+  }
+  90% , 100%{
+    transform:translate(0px, 1500px);
+  }
+}
+@keyframes size {
+  0% {
+    max-width: 1%;
+    max-height: 1%;
+    
+  }
+  100% {
+    max-width: 20%;
+    max-height: 13%;
+    
+  }
+} */
+ #slideshow {
+    text-align: center;
+    overflow: hidden;
+    max-width: 35%;
+
+    margin: 0;
+  }
+
+
+  .slide-wrapper {
+    /* width: 2912px; */
+    animation: slide 20s ease infinite;
+    display: flex;
+  }
+  
+  .slide {
+    float: left;
+  }
+  .slide img{
+    max-width: 530px;
+  }
+
+  
+  @media only screen and (max-width:1290px) {
+    .big-big{
+      flex-wrap: wrap;
+    }
+  }
+  /* @media only screen and (max-width:1280px) {
+
+  #slideshow{
+    max-width: 42%;
+  }
+}  */
+@media only screen and (max-width:1280px) {
+
+  #slideshow{
+    width: 47%;
+  }
+} 
+@media only screen and (max-width:1096px) {
+
+  #slideshow{
+    width: 500px;
+  }
+} 
+@media only screen and (max-width:1071px) {
+  .slide-wrapper {
+    animation: slide2 20s ease infinite;
+    display: flex;
+  }
+  #slideshow{
+    width: 790px;
+  }
+  .slide img{
+    max-width: 448px;
+  }
+} 
+@media only screen and (max-width:660px) {
+  .slide-wrapper {
+    animation: slide2 20s ease infinite;
+    display: flex;
+  }
+  #slideshow{
+    width: 100% ;
+  }
+} 
+@media only screen and (max-width:660px) {
+  .slide-wrapper {
+    animation: slide2 20s ease infinite;
+    display: flex;
+  }
+  #slideshow{
+    width: 100% !important;
+  }
+} 
+@keyframes slide {
+  20% {margin-left: 0px;}
+  30% {margin-left: -530px;}
+  50% {margin-left: -530px;}
+  60% {margin-left: -1059px;}
+  70% {margin-left: -1059px;}
+  80% {margin-left: -1590px;}
+  90% {margin-left: -1590px;}
+}
+@keyframes slide2 {
+  20% {margin-left: 0px;}
+  30% {margin-left: -450px;}
+  50% {margin-left: -450px;}
+  60% {margin-left: -900px;}
+  70% {margin-left: -900px;}
+  80% {margin-left: -1350px;}
+  90% {margin-left: -1350px;}
+}
+  
+
+
+.welcome{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+
+.welcome h1{
+  margin: 0px;
+
+}
+.welcome h1, .welcome p{
+  color: white;
+          text-align: center;
+            text-shadow: -1px 1px 0 #000, 
+                          1px 1px 0 #000, 
+                         1px -1px 0 #000, 
+                        -1px -1px 0 #000; 
+}
+.slider-wrap {
+  width: 100%;
+  height:500px;
+  position: relative;
+}
+.single-slide {
+  width: 100%;
+    height: 100%;
+    position: absolute;
+  opacity: 0;
+animation: slider-animation;
+animation-duration: 25s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
+  background-size: cover;
+}
+
+.slide-1 {
+  background-color: red; 
+  background-image: url(../../img/ice-cream2.jpg);
+  height: 70vh;
+
+}
+.slide-2 {
+  background-color: rebeccapurple; 
+  animation-delay: 5s; 
+  background-image: url(../../img/ice-cream.jpg);
+  height: 70vh;
+}
+.slide-3 {
+  background-color: orange; 
+  animation-delay: 10s; 
+  background-image: url(../../img/Grain-Cup.jpg);
+  height: 70vh;
+}
+.slide-4 {
+  background-color: blue; 
+  animation-delay: 15s; 
+  background-image: url(../../img/chocolate.jpg);
+  height: 70vh;
+}
+.slide-5 {
+  background-color: green; 
+  animation-delay: 20s; 
+  background-image: url(../../img/Hot-Chocolate.jpg);
+  height: 70vh;
+}
+.slide-6 {
+  background-color: green; 
+  animation-delay: 20s; 
+  background-image: url(../../img/cake1.jpeg);
+  height: 70vh;
+}
+.slide-7 {
+  background-color: green; 
+  animation-delay: 20s; 
+  background-image: url(../../img/cake2.jpg);
+  height: 70vh;
+}
+.slide-8 {
+  background-color: green; 
+  animation-delay: 20s; 
+  background-image: url(../../img/shace.jpg);
+  height: 70vh;
+}
+@keyframes slider-animation {
+    
+0% {
+    opacity: 0;
+}
+6% {
+    opacity: 1;
+}
+24% {
+    opacity: 1;
+}
+30% {
+    opacity: 0;
+}
+100% {
+    opacity: 0;
+}
+}
+
+.slider-wrap{
+  z-index: -1;
+}
+
+

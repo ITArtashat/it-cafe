@@ -1,0 +1,87 @@
+.sec1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../../img/menu-bg.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    /* max-height: 1700px; */
+
+}
+h2{
+    margin: 0;
+}
+
+/* .about-us-title h1{
+    font-size: 40px;
+} */
+.click1 , .click2 , .click3 , .no-margin{
+    text-decoration: underline 3px green;
+}
+.no-margin{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.sec1{
+    display: flex;
+    justify-content: center;
+}
+.click1-p{
+    display: none;
+}
+.click1-p.open{
+    display: flex;
+}
+.click2-p{
+    display: none;
+}
+.click2-p.open2{
+    display: flex;
+}
+.about-us{
+    display: none;
+}
+.about-us.open4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+    text-align: left;
+    font-size: 20px;
+    flex-direction: column;
+}
+.about-us-text2{
+    display: none;
+}
+.about-us-text2.open3{
+    display: flex;
+
+}
+.facebook-instagram-green-icons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.instagram-green-icon img , .facebook-green-icon img{
+    max-width: 50px;
+}
+.facebook-green-icon{
+    padding-left: 10px;
+}
+.instagram-green-icon:hover , .facebook-green-icon:hover{
+    opacity: 0.7;
+}
+.click2:hover , .click1:hover , .click3:hover , .no-margin:hover{
+    cursor: pointer;
+    color: blue;
+}
+.gif-2{
+    width: 2%;
+}
+/* .click2-p , .click1-p{
+    display: none;
+} */
